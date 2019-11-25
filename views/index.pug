@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title MyBank
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div.jumbotron
+      div.container
+        h1 MyBank
+    div.container
+      div.form-group
+        label.col-md-4.control-label Search:
+        input#search.col-md-8.form-control.input-md
+        button#send.btn.btn-success(type=submit) Confirm
+      table.table.table-striped
+        thead
+          tr
+            td ID
+            td Name
+            td Amount
+        tbody#bankTable
+
+    script(src='/javascripts/index.js')

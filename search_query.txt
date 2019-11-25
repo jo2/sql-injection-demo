@@ -1,0 +1,1 @@
+Alfred"; UPDATE bank_accounts SET amount = 1000000.0 WHERE owner = "Malory
